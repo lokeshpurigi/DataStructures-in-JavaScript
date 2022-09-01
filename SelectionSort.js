@@ -1,7 +1,8 @@
 function Swap(arr, xp, yp) {
-  var temp = arr[xp];
-  arr[xp] = arr[yp];
-  arr[yp] = temp;
+//   var temp = arr[xp];
+//   arr[xp] = arr[yp];
+//   arr[yp] = temp;
+  [arr[xp],arr[yp]] = [arr[yp],arr[xp]] // alter nate way to snap
 }
 function SelectionSort(arr, n) {
   var i, j, min_idx;
